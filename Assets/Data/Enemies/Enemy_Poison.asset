@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb08e0579fd53d39ab3331f21ebc860, type: 3}
+  m_Name: Enemy_Poison
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.EnemyDataSO
+  displayName: Poison Chicken
+  sprite: {fileID: 21300000, guid: 82337315b1a41a7c98b0f42b18940519, type: 3}
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  maxHealth: 3
+  score: 20
+  moveSpeed: 2.9
+  eggInterval: {x: 5, y: 8.5}
+  eggSpeed: 4.8
+  eggDamage: 1
+  eggPrefab: {fileID: 4655263230490667069, guid: c915a2cbc184b07d7b7054b23daf682b, type: 3}
+  diveChance: 0.07
+  diveInterval: {x: 8, y: 14}
+  diveSpeed: 6
+  foodPrefab: {fileID: 4833324340304796190, guid: 270321f00f148b8f0823cdc739abcc7b, type: 3}
+  giftPrefab: {fileID: 6017988564880579609, guid: 2bedf23d128a99c3596ab838ccd9a1ee, type: 3}
+  foodChance: 0.18
+  giftChance: 0.035

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a349a1f28f20ecc8ac488226ec05204, type: 3}
+  m_Name: L1_Dense
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.WaveDataSO
+  waveName: Earth Dense
+  kind: 0
+  enemyPrefab: {fileID: 8173181900689138163, guid: 399d03f01211b8a9ba7b473a6d14ad89, type: 3}
+  enemyData: {fileID: 11400000, guid: f5f78991b9198b86eb69d2bc79ac2112, type: 2}
+  count: 24
+  formation: 3
+  rows: 4
+  columns: 6
+  spacing: {x: 1.05, y: 0.75}
+  formationCenter: {x: 0, y: 1.9}
+  swayAmplitude: 0.8
+  swaySpeed: 1.4
+  descentSpeed: 0.03
+  entryPath:
+    waypoints:
+    - {x: -2.5, y: 3.5}
+    - {x: -1, y: 1.8}
+    - {x: 0, y: 0}
+    duration: 1.45
+    stagger: 0.07
+    spreadX: 0.45
+  fireRateMultiplier: 1.1
+  diveChanceMultiplier: 1
+  asteroidPrefab: {fileID: 0}
+  asteroidCount: 6
+  asteroidHealth: 3
+  asteroidFallSpeed: 1.4
+  asteroidSizeRange: {x: 0.8, y: 1.5}
+  asteroidScore: 15

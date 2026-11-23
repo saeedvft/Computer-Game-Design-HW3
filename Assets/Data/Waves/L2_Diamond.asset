@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a349a1f28f20ecc8ac488226ec05204, type: 3}
+  m_Name: L2_Diamond
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.WaveDataSO
+  waveName: Belt Diamond
+  kind: 0
+  enemyPrefab: {fileID: 8243511793094028794, guid: 42fef625b5d9a7def8368b991fa8ae68, type: 3}
+  enemyData: {fileID: 11400000, guid: 07115f79d76e6ff2db5684a39bbe6695, type: 2}
+  count: 22
+  formation: 2
+  rows: 5
+  columns: 7
+  spacing: {x: 0.95, y: 0.75}
+  formationCenter: {x: 0, y: 1.9}
+  swayAmplitude: 0.85
+  swaySpeed: 1.45
+  descentSpeed: 0.03
+  entryPath:
+    waypoints:
+    - {x: -3, y: 4}
+    - {x: -1.2, y: 2.1}
+    - {x: 0, y: 0}
+    duration: 1.4
+    stagger: 0.065
+    spreadX: 0.45
+  fireRateMultiplier: 1.2
+  diveChanceMultiplier: 1.2
+  asteroidPrefab: {fileID: 0}
+  asteroidCount: 6
+  asteroidHealth: 3
+  asteroidFallSpeed: 1.4
+  asteroidSizeRange: {x: 0.8, y: 1.5}
+  asteroidScore: 15

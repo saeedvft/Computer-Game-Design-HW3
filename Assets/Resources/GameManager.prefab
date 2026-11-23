@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6967388250193520924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2141636419040172678}
+  - component: {fileID: 261439521161581498}
+  - component: {fileID: 2595082424056435291}
+  - component: {fileID: 5234434790574085541}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2141636419040172678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967388250193520924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261439521161581498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967388250193520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3958bda4dc3112fb185403e2221238bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.GameManager
+  database: {fileID: 11400000, guid: 11e162b878f8213808395e11c7a24ace, type: 2}
+  startingLives: 3
+  startingBombs: 2
+  maxWeaponPower: 3
+--- !u!114 &2595082424056435291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967388250193520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138ff5bad63fd6fbf811f6356096c50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.PoolManager
+--- !u!114 &5234434790574085541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967388250193520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811062bd6c78949c28c2f55690aafb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.VfxManager
+  explosionPrefab: {fileID: 8557517393978225696, guid: 96eece8a3c839a525a10460ec7f0213c, type: 3}
+  smallExplosionPrefab: {fileID: 9207081135440281399, guid: 54644a866654550c3a8261f7e67bfdc5, type: 3}
+  muzzlePrefab: {fileID: 6675847249977362628, guid: c9006b4172b8f3ba5aa5f9a2ff8aff2f, type: 3}
+  shockwavePrefab: {fileID: 756530248046093912, guid: cd237ae600acad699859b147abf88041, type: 3}
+  sparklePrefab: {fileID: 630914164861520670, guid: 176f5d7589f32e6179f27cc7f54510e7, type: 3}
+  damagePrefab: {fileID: 9031256907838718414, guid: cb0c4cfdb9c1e4fc4aca59fb6d6cb5be, type: 3}
+  maxLiveEffects: 96

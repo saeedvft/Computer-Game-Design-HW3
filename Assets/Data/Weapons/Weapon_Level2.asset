@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bea2bf2c75b7639a4b2f65d20c8de3, type: 3}
+  m_Name: Weapon_Level2
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.WeaponDataSO
+  displayName: Twin Laser
+  powerLevel: 2
+  icon: {fileID: 0}
+  projectilePrefab: {fileID: 5944665520502402279, guid: f9f9716d9d8cb69f28c40ba8396741b7, type: 3}
+  damage: 1
+  projectileSpeed: 15
+  fireInterval: 0.23
+  pattern: 1
+  projectileCount: 2
+  spreadAngle: 0
+  muzzleOffsets:
+  - {x: -0.22, y: 0.52}
+  - {x: 0.22, y: 0.52}

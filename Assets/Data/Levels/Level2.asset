@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a779a1621694c91a8ca0ebe41b279bd, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.LevelDataSO
+  levelNumber: 2
+  displayName: Asteroid Belt
+  sceneName: Level2
+  theme: 1
+  themeColor: {r: 0.04, g: 0.025, b: 0.04, a: 1}
+  backgroundMusic: {fileID: 0}
+  rounds:
+  - wave: {fileID: 11400000, guid: bd94f734fdaee8388b287b3cad2966fd, type: 2}
+    difficulty: 1.1
+  - wave: {fileID: 11400000, guid: c4a439f843a8b8e7e9b3e7a5db469672, type: 2}
+    difficulty: 1.2
+  - wave: {fileID: 11400000, guid: 198a1f32481049a2799cbce8a387f780, type: 2}
+    difficulty: 1.1
+  - wave: {fileID: 11400000, guid: 08f7932759c3a5c378defcad4f66b7f5, type: 2}
+    difficulty: 1.25
+  - wave: {fileID: 11400000, guid: cc6ef0491fa2820009de29e7de018f6a, type: 2}
+    difficulty: 1.35
+  - wave: {fileID: 11400000, guid: 198a1f32481049a2799cbce8a387f780, type: 2}
+    difficulty: 1.3
+  - wave: {fileID: 11400000, guid: c4a439f843a8b8e7e9b3e7a5db469672, type: 2}
+    difficulty: 1.5

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a779a1621694c91a8ca0ebe41b279bd, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.LevelDataSO
+  levelNumber: 1
+  displayName: Earth Orbit
+  sceneName: Level1
+  theme: 0
+  themeColor: {r: 0.015, g: 0.035, b: 0.09, a: 1}
+  backgroundMusic: {fileID: 0}
+  rounds:
+  - wave: {fileID: 11400000, guid: e5a14e5e10bba5248b44086f6f140512, type: 2}
+    difficulty: 1
+  - wave: {fileID: 11400000, guid: d3affc88a4bf61236a6561221e802a96, type: 2}
+    difficulty: 1.05
+  - wave: {fileID: 11400000, guid: dcfcbca577f64aeac9e4de32157c29ae, type: 2}
+    difficulty: 1
+  - wave: {fileID: 11400000, guid: 4fecb7997714a5223b3dc062a569c8f5, type: 2}
+    difficulty: 1.18
+  - wave: {fileID: 11400000, guid: e5a14e5e10bba5248b44086f6f140512, type: 2}
+    difficulty: 1.3

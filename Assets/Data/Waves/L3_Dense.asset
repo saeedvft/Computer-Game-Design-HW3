@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a349a1f28f20ecc8ac488226ec05204, type: 3}
+  m_Name: L3_Dense
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.WaveDataSO
+  waveName: Galaxy Dense
+  kind: 0
+  enemyPrefab: {fileID: 5624224176158762827, guid: 69842e2d86ce2af1e93f6e1c3d1094de, type: 3}
+  enemyData: {fileID: 11400000, guid: 3010fce704182f015968d00236506dc6, type: 2}
+  count: 36
+  formation: 3
+  rows: 5
+  columns: 8
+  spacing: {x: 0.9, y: 0.68}
+  formationCenter: {x: 0, y: 2.1}
+  swayAmplitude: 1.1
+  swaySpeed: 1.7
+  descentSpeed: 0.05
+  entryPath:
+    waypoints:
+    - {x: -3.5, y: 4.5}
+    - {x: -1.5, y: 2.4}
+    - {x: -0.2, y: 0.6}
+    - {x: 0, y: 0}
+    duration: 1.2
+    stagger: 0.05
+    spreadX: 0.45
+  fireRateMultiplier: 1.4
+  diveChanceMultiplier: 1.6
+  asteroidPrefab: {fileID: 0}
+  asteroidCount: 6
+  asteroidHealth: 3
+  asteroidFallSpeed: 1.4
+  asteroidSizeRange: {x: 0.8, y: 1.5}
+  asteroidScore: 15

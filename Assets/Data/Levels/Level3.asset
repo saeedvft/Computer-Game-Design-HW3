@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a779a1621694c91a8ca0ebe41b279bd, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.LevelDataSO
+  levelNumber: 3
+  displayName: Deep Galaxy
+  sceneName: Level3
+  theme: 2
+  themeColor: {r: 0.045, g: 0.01, b: 0.075, a: 1}
+  backgroundMusic: {fileID: 0}
+  rounds:
+  - wave: {fileID: 11400000, guid: 7cf1f871855697168af615dc11171230, type: 2}
+    difficulty: 1.2
+  - wave: {fileID: 11400000, guid: 360ef34bd52059005a8163517baa9367, type: 2}
+    difficulty: 1.3
+  - wave: {fileID: 11400000, guid: c287d2f167e0829b5ab938c10885c1cf, type: 2}
+    difficulty: 1.35
+  - wave: {fileID: 11400000, guid: 05060a0a8debe0e45824b9e3db5922eb, type: 2}
+    difficulty: 1.35
+  - wave: {fileID: 11400000, guid: 7cf1f871855697168af615dc11171230, type: 2}
+    difficulty: 1.5
+  - wave: {fileID: 11400000, guid: 360ef34bd52059005a8163517baa9367, type: 2}
+    difficulty: 1.6
+  - wave: {fileID: 11400000, guid: c287d2f167e0829b5ab938c10885c1cf, type: 2}
+    difficulty: 1.7
+  - wave: {fileID: 11400000, guid: 05060a0a8debe0e45824b9e3db5922eb, type: 2}
+    difficulty: 1.6
+  - wave: {fileID: 11400000, guid: 7cf1f871855697168af615dc11171230, type: 2}
+    difficulty: 1.85
+  - wave: {fileID: 11400000, guid: 360ef34bd52059005a8163517baa9367, type: 2}
+    difficulty: 2

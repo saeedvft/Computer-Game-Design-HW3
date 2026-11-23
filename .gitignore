@@ -1,0 +1,44 @@
+# Unity project generated / transient folders (never commit)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+/Assets/StreamingAssets/ETA/
+/Assets/Plugins/Editor/MetaData/
+
+# Auto-generated Unity files
+*.csproj
+*.unityproj
+/*.CSharpUserExtensions.pref
+*.pidb.meta
+*.booproj
+*.user
+*.userprefs
+pidb/
+
+# Build output
+*.apk
+*.aab
+*.unitypackage
+*.exe
+*.app
+*.dmg
+
+# Local history / scratch
+*.sln
+*.userprefs
+
+# ZIP backup of the whole project (do not track inside the repo)
+*.zip
+
+# Temporary render / screenshot output committed by tooling (optional)
+/Assets/Screenshots/
+
+# End of gitignore
+
+README.md
+DOC.md
